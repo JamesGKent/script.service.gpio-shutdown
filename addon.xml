@@ -7,11 +7,14 @@
   </requires>
   <extension point="xbmc.service" library="main.py" start="login"></extension>
   <extension point="xbmc.addon.metadata">
-    <language></language>
     <summary>GPIO Shutdown</summary>
     <description>Provides a service to check GPIO button and shutdown if button is pressed. This is normally connected to GPIO03 as this also acts as an interrupt to wake the Pi up. This service depends on the pigpio daemon which must be manually added to the startup script /storage/.config/autostart.sh</description>
-    <disclaimer></disclaimer>
+    <disclaimer>No liability taken for damaged hardware and/or software caused by this addon.</disclaimer>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
+	<language></language>
+	<forum>none</forum>
+	<email>none</email>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>linux</platform>
   </extension>
 </addon>
