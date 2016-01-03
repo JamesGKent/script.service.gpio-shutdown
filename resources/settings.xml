@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="32100">
+    <setting id="gpiopin" type="number" label="32101" option="int" default="3" />
+	<!--setting id="hibernatetime" type="number" label="32102" option="int" default="10" /-->
+    <setting id="shutdowntime" type="number" label="32103" option="int" default="500" />
+    <setting id="reboottime" type="number" label="32104" option="int" default="1000" />
+  </category>
+</settings>

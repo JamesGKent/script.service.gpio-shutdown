@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+<!--Settings-->
+  <!--Behaviour-->
+  <string id="32100">Shutdown Settings</string>
+  <string id="32101">GPIO Pin</string>
+  <!--string id="32102">Time for Hibernate (ms)</string-->
+  <string id="32103">Time for Shutdown (ms)</string>
+  <string id="32104">Time for Reboot (ms)</string>
+</strings>
